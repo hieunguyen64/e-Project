@@ -11,14 +11,14 @@ body {
 .search-container .searchbar input {
     font-size: 130%;
     border: 1px solid grey;
-    float: left;
-    width: 80%;
+    float: right;
+    width: 100%;
     background: #f1f1f1;
 }
 
 .search-container .searchbar button {
     float: left;
-    width: 13%;
+    width: 80%;
     background: #2196f3;
     color: white;
     font-size: 130%;
@@ -132,6 +132,15 @@ body {
     box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.205);
 }
 
+.style-image img{
+    width: 100%;
+}
+
+.style-image p{
+    color: black;
+    text-align: center;
+}
+
 /*tittle*/
 
 #row-tittle {
@@ -165,10 +174,6 @@ body {
     color: gray;
 }
 
-.slider-two .slick-track .product:hover span {
-    background-color: #93f1f0;
-}
-
 .site-slider-two .slider-btn .prev,
 .site-slider-two .slider-btn .next {
     opacity: 0;
@@ -197,10 +202,6 @@ body {
     margin: auto;
 }
 
-.slider-three .slick-track .product:hover span {
-    background-color: #93f1f0;
-}
-
 .site-slider-three .slider-btn .prev,
 .site-slider-three .slider-btn .next {
     opacity: 0;
@@ -210,6 +211,20 @@ body {
 .site-slider-three:hover .slider-btn .prev,
 .site-slider-three:hover .slider-btn .next {
     opacity: 1;
+}
+
+/*Card*/
+.card a .card-footer{
+    text-decoration: none;
+}
+
+.card-text{
+    color: #AE0000;
+}
+
+.card-footer{
+    text-align: center;
+    text-decoration: none;
 }
 
 /*Footer*/
